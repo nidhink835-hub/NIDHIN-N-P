@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of an aspiring Unity game developer learning C# and 2D game development.">
+  <title>NIDHIN N P | Unity Game Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Your Name home">
+        <span class="brand-icon">▶</span><span>NIDHN N P<span class="accent">.DEV</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-contact">Contact <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> ASPIRING UNITY GAME DEVELOPER</p>
+        <h1>Turning ideas into <span class="gradient-text">playable worlds.</span></h1>
+        <p class="hero-description">Hi, I'm <strong>NIDHIN N P</strong> — a beginner game developer learning Unity and C#. I enjoy building game mechanics, experimenting with 2D gameplay, and turning small ideas into interactive experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="quick-facts">
+          <div><span class="fact-value">Unity</span><span class="fact-label">Game engine</span></div>
+          <div><span class="fact-value">C#</span><span class="fact-label">Programming</span></div>
+          <div><span class="fact-value">2D</span><span class="fact-label">Current focus</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative pixel-inspired game scene">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="pixel-star star-one">✦</div><div class="pixel-star star-two">✧</div>
+        <div class="planet"></div>
+        <div class="ship">
+          <span class="ship-wing wing-left"></span><span class="ship-wing wing-right"></span>
+          <span class="ship-body"></span><span class="ship-cockpit"></span>
+          <span class="ship-flame"></span>
+        </div>
+        <div class="floating-tag tag-unity">◈ UNITY</div>
+        <div class="floating-tag tag-code">&lt;/&gt; C#</div>
+        <div class="art-caption"><span class="status-dot"></span> BUILDING MY NEXT PROJECT</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+        <h2>Curious mind. <span class="gradient-text">Game-making journey.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card panel">
+          <div class="card-symbol">⌘</div>
+          <h3>Learning by building</h3>
+          <p>I'm developing my skills through small Unity projects, learning how player controls, physics, collisions, spawning systems, and user interfaces work together.</p>
+        </div>
+        <div class="about-card panel">
+          <div class="card-symbol">✦</div>
+          <h3>What I'm aiming for</h3>
+          <p>My goal is to grow into a professional game developer, write cleaner code, finish playable projects, and create games that people enjoy.</p>
+        </div>
+      </div>
+      <p class="honesty-note"><span aria-hidden="true">✳</span> This is a beginner portfolio. I'll keep adding projects and skills as I learn and build more.</p>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading heading-row">
+        <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Projects in progress<span class="accent">.</span></h2></div>
+        <p class="section-intro">A look at the games and mechanics I'm exploring. Replace these cards with your own screenshots and accurate progress.</p>
+      </div>
+      <div class="project-grid">
+       
+        <article class="project-card panel">
+          <div class="project-art hill-art">
+            <span class="project-number">PROJECT 01</span>
+            <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+            <div class="mini-car"><span></span></div>
+            <span class="art-label">DRIVING / 2D</span>
+          </div>
+          <div class="project-content">
+            <div class="project-title-row"><h3>2D Hill Climb</h3><span class="project-status">PROTOTYPE</span></div>
+            <p>A side-scrolling driving concept exploring hilly terrain, vehicle movement, and game-ready 2D assets.</p>
+            <div class="tag-list"><span>Unity</span><span>2D Physics</span><span>Assets</span></div>
+            <p class="project-learning"><strong>Learning:</strong> vehicle control, terrain, and scene composition.</p>
+          </div>
+        </article>
+        <article class="project-card panel">
+          <div class="project-art obstacle-art">
+            <span class="project-number">PROJECT 02</span>
+            <div class="platform platform-one"></div><div class="platform platform-two"></div>
+            <div class="hammer"><span></span></div><div class="mini-player"></div>
+            <span class="art-label">GAMEPLAY / MECHANICS</span>
+          </div>
+          <div class="project-content">
+            <div class="project-title-row"><h3>Obstacle & Game Over System</h3><span class="project-status">EXPERIMENT</span></div>
+            <p>A gameplay mechanics experiment involving rotating hazards, player collisions, and a restart flow.</p>
+            <div class="tag-list"><span>C#</span><span>Collisions</span><span>UI</span></div>
+            <p class="project-learning"><strong>Learning:</strong> trigger logic, game states, and restart controls.</p>
+          </div>
+        </article>
+      </div>
+      <p class="small-note">Note: These are starter project descriptions, not claims that every feature is complete. Edit each card to match what you've actually built.</p>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">03 / TOOLS & TECHNOLOGIES</p>
+        <h2>Skills I'm developing<span class="accent">.</span></h2>
+        <p class="section-intro">A snapshot of my current learning path. Keep this list honest and update it as you gain experience.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item panel"><span class="skill-icon">◈</span><div><h3>Unity</h3><p>Scenes, GameObjects, components</p></div><span class="skill-level">LEARNING</span></div>
+        <div class="skill-item panel"><span class="skill-icon">&lt;/&gt;</span><div><h3>C#</h3><p>Variables, methods, conditions</p></div><span class="skill-level">LEARNING</span></div>
+        <div class="skill-item panel"><span class="skill-icon">◎</span><div><h3>2D Physics</h3><p>Rigidbody2D, colliders, collisions</p></div><span class="skill-level">LEARNING</span></div>
+        <div class="skill-item panel"><span class="skill-icon">▤</span><div><h3>Game UI</h3><p>Text, menus, game-over screens</p></div><span class="skill-level">LEARNING</span></div>
+        <div class="skill-item panel"><span class="skill-icon">✧</span><div><h3>Gameplay Logic</h3><p>Movement, spawning, restart flow</p></div><span class="skill-level">PRACTICING</span></div>
+        <div class="skill-item panel"><span class="skill-icon">⌘</span><div><h3>Git & GitHub</h3><p>Version control and sharing projects</p></div><span class="skill-level">TO LEARN</span></div> 
+        <div class="skill-item panel"><span class="skill-icon">🎨</span><div><h3>Adobe Photoshop</h3><p>Basic image editing and game asset design</p></div><span class="skill-level">BASIC</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">04 / LET'S CONNECT</p>
+        <h2>Have a game idea?<br><span class="gradient-text">Let's talk.</span></h2>
+        <p>I'm learning and growing as a game developer. Feel free to reach out about projects, feedback, or opportunities.</p>
+        <a class="contact-buttons"> <a class="button button-primary" href="https://mail.google.com/mail/?view=cm&fs=1&to=nidhink835@gmail.com"target="_blank"> Email Me</a><span aria-hidden="true">↗</span></a>
+         <a class="button button-primary"href="https://wa.me/919846123318"target="_blank"rel="noopener noreferrer"> WhatsApp Me</a>
+         <p class="contact-hint"> Every great game starts with an idea. I'm here to learn,
+    create, experiment, and turn ideas into playable experiences.
+    Let's connect and build something awesome!</p>
+        <div class="contact-socials">
+        <a href="https://www.instagram.com/itachi_the_gamerr/"target="_blank" rel="noopener noreferrer">My Instagram</a>
+        <a href="https://www.youtube.com/@ITACHItheGAMERR"target="_blank" rel="noopener noreferrer">& YouTube</a>
+        
+        
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home"><span class="brand-icon">▶</span><span>NIDHIN N P<span class="accent">.DEV</span></span></a>
+      <p>Designed & built with passion by NIDHIN NP. © <span id="year"></span></p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
